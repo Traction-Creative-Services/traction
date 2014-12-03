@@ -8,10 +8,12 @@
             <!-- Latest compiled and minified CSS -->
             <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css">
             <link rel="stylesheet" href="assets/style.css">
+            <link rel="icon" href="assets/logo.png">
             <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
             <script src="assets/main.js"></script>
         </head>
         <body>
+            <span id="#top"></span>
             <nav class="navbar navbar-fixed-top" role="navigation">
                 <div class="container">
                     <!-- Brand and toggle get grouped for better mobile display -->
@@ -22,7 +24,7 @@
                             <span class="icon-bar"></span>
                             <span class="icon-bar"></span>
                         </button>
-                        <a class="navbar-brand" href="#"><img id="logo" alt="TRACTION" src="assets/logo.png"></a>
+                        <a class="navbar-brand" href="#top"><img id="logo" alt="TRACTION" src="assets/logo.png"></a>
                     </div>
                     
                     <!-- Collect the nav links, forms, and other content for toggling -->
@@ -30,6 +32,7 @@
                         <ul class="nav navbar-nav navbar-right">
                             <li><a href="#about">About</a></li>
                             <li><a href="#work">Work</a></li>
+                            <li><a href="#crew">Crew</a></li>
                             <li><a href="#contact">Contact</a></li>
                             <li><a href="#footer" class="summit"><img alt="Summit" src="assets/summit-icon.png"></a></li>
                         </ul>
@@ -131,18 +134,18 @@
                     </div>
                 </article>
             </section>
-            <footer>
+            <footer id="footer">
                 <div class="container">
                     <div class="row">
                         <div class="col-md-3">
                             <h3><img alt="Summit" src="assets/summit-icon.png" /> Summit</h3>
-                            <form>
+                            <form method="post" action="http://summit.traction.media/index.php?/welcome/login/">
                                 <input type="text" class="form-control" name="uname" id="uname" placeholder="client id" />
                                 <input type="password" class="form-control" name="pword" id="pword" />
                                 <input type="submit" class="btn btn-default" name="login" id="login" value="Log In" />
                             </form>
                         </div>
-                        <div class="col-md-3 col-md-offset-1">
+                        <div class="col-md-3 col-md-offset-2">
                             <h3>Follow Us</h3>
                             social icons
                         </div>

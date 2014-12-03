@@ -96,11 +96,24 @@ h4 {
 }
 
 .minified {
-    background: #C1BDB9;
+    background: RGBA(193, 189, 185, 0.95);
+}
+
+.minified .navbar-nav>li>a {
+    padding-top:25px;
+    font-size:1em !important;
+}
+
+.minified .navbar-nav>li>a.summit {
+    padding-top:15px;
+}
+
+.minified .navbar-nav>li>a.summit>img {
+    height:30px;
 }
 
 #logo-small {
-    height:50px;
+    height:40px;
 }
 
 form>* {
@@ -109,6 +122,13 @@ form>* {
 
 .form-control {
     max-width:370px;
+}
+
+#contact {
+    padding-top:100px;
+    background-image: url('chevron.png');
+    background-position:top center;
+    background-repeat: no-repeat;
 }
 
 footer {
