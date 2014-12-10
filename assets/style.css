@@ -136,3 +136,57 @@ footer {
     min-height:300px;
     padding:1em;
 }
+
+.icon-bar {
+    background:#f3f3f3;
+}
+
+.work-slider div {
+    text-align:center;
+    margin-left:2.5em;
+}
+
+.work-slider div img {
+    width:90%;
+}
+
+#elsewhere a {
+    color:#FFF;
+    float:left;
+    width:100%;
+    font-size:1em;
+}
+
+@media screen and (max-width: 600px) {
+    .cover {
+        background-repeat:no-repeat;
+        height:auto;
+        min-height:10px;
+    }
+    
+    .cover h1 {
+        margin-top:30px;
+        font-size:2.2em;
+    }
+    
+    #logo {
+        height:30px;
+    }
+    
+    .navbar-brand {
+        padding-top:5px;
+    }
+    
+    h1 {
+        font-size:2.4em;
+        line-height:1em;
+    }
+    
+    h2 {
+        font-size:1.8em;
+    }
+    
+    h3 {
+        font-size:1.5em;
+    }
+}

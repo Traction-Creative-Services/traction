@@ -5,11 +5,13 @@
             <meta charset="utf-8">
             <meta http-equiv="X-UA-Compatible" content="IE=edge">
             <meta name="viewport" content="width=device-width, initial-scale=1">
+            <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/jquery.slick/1.3.15/slick.css"/>
             <!-- Latest compiled and minified CSS -->
             <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css">
             <link rel="stylesheet" href="assets/style.css">
             <link rel="icon" href="assets/logo.png">
             <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+            <script type="text/javascript" src="//cdn.jsdelivr.net/jquery.slick/1.3.15/slick.min.js"></script>
             <script src="assets/main.js"></script>
         </head>
         <body>
@@ -77,7 +79,12 @@
                             </div>
                         </div>
                         <div class="row">
-                            Our Work slider
+                            <div class="work-slider">
+                                <div><img alt="Funsteps Inc" src="assets/work/funsteps.jpg" /><h3>Funsteps, Inc.</h3></div>
+                                <div><img alt="Robbinsdale Food Coop" src="assets/work/foodcoop.jpg" /><h3>Robbinsdale Food Coop</h3></div>
+                                <div><img alt="Vet Derm" src="assets/work/vetderm.jpg" /><h3>Veterinary Dermatology Service</h3></div>
+                                <div><img alt="Kinetic Construction" src="assets/work/kinetic.jpg" /><h3>Kinetic Construction</h3></div>
+                            </div>
                         </div>
                     </div>
                 </article>
@@ -91,15 +98,21 @@
                         <div class="row">
                             <div class="col-md-4 centered">
                                 <img alt="Daniel" src="assets/crew/dan.png"/>
-                                <h3>Dan</h3>
+                                <h3>Dan<br />
+                                <small>Favorite tool: <a href="https://justgetflux.com/" target="_blank">f.lux</a></small></h3>
+                                <p>Dan is a dedicated technologist. His professional history working with companies like Honeywell Aerospace has built a strong sense of detail in his work, and he loves to find new ways to automate every day tasks. In his spare time, you can find Dan playing indie games with his partner, or watching awful comedy films. If you ever run into Dan, ask him about his travels accross the US and abroad, he's got a few stories to tell.</p>
                             </div>
                             <div class="col-md-4 centered">
                                 <img alt="Martin" src="assets/crew/martin.png"/>
-                                <h3>Martin</h3>
+                                <h3>Martin<br />
+                                <small>Favorite tool: <a href="http://www.scootersoftware.com/" target="_blank">Beyond Compare</a></small></h3>
+                                <p>A leader at heart, Martin is always looking for the next step on the his own path. With a lengthy history of building unique solutions to problems, he's developed the skills and tool set to solve almost any puzzle. When he's not hard at work, you can find Martin hitting the slopes, grabbing a beer with friends, or reading a good book.</p>
                             </div>
                             <div class="col-md-4 centered">
                                 <img alt="Jennifer" src="assets/crew/jen.png"/>
-                                <h3>Jen</h3>
+                                <h3>Jen<br />
+                                <small>Favorite tool: <a href="https://www.adobe.com/creativecloud.html" target="_blank">Creative Cloud</a></small></h3>
+                                <p>Jen is our resident creative mind. A recent graduate from MSU-Mankato's BFA program, she completed a study abroad trip in the Netherlands where she landed an internship to jump start her professional career. Jen is a native Minnesotan, and enjoys spending her spare time baking kick ass cupcakes, and knitting scarfs to protect against the Minnesota winters.</p>
                             </div>
                         </div>
                     </div>
@@ -147,11 +160,13 @@
                         </div>
                         <div class="col-md-3 col-md-offset-2">
                             <h3>Follow Us</h3>
-                            social icons
+                            <a href="https://www.facebook.com/TractionCreative" target="_blank"><img class="social-link" alt="FB" src="assets/fb.png" /></a>
+                            <a href="https://twitter.com/TractionCreate" target="_blank"><img class="social-link" alt="TWIT" src="assets/twitter.png" /></a>
                         </div>
-                        <div class="col-md-3 col-md-offset-1">
-                            <h4>You guys are great!</h4>
-                            <p>testimonial lorem ipsum...</p>
+                        <div class="col-md-3 col-md-offset-1" id="elsewhere">
+                            <h3>Elsewhere</h3>
+                            <a href="http://blog.traction.media" target="_blank">TRACTION Blog</a>
+                            <a href="https://github.com/Traction-Creative-Services" target="_blank">Github</a>
                         </div>
                     </div>
                 </div>

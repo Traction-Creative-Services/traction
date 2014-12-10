@@ -9,6 +9,12 @@ $(document).ready(function() {
             $('#logo-small').attr('id','logo');
         }
     });
+    
+    $('.work-slider').slick({
+            autoplay: true,
+            centerMode: true,
+            centerPadding: '100px'
+	});
 });
 
 $(function() {
